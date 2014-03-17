@@ -134,6 +134,12 @@
     <Compile Include="light-measure.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="sn74hc135n.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sn74hc135n.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="system.h">
       <SubType>compile</SubType>
     </Compile>
