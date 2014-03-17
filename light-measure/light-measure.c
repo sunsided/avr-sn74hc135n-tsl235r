@@ -17,8 +17,8 @@
 #define SN74HC153N_B_PORT   PORTC
 #define SN74HC153N_1Gn_PORT PORTC
 #define SN74HC153N_2Gn_PORT PORTC
-#define SN74HC153N_1Y_PORT  PORTD
-#define SN74HC153N_2Y_PORT  PORTD
+#define SN74HC153N_1Y_PORT  PIND
+#define SN74HC153N_2Y_PORT  PIND
 
 #define SN74HC153N_A_DDR    DDRC
 #define SN74HC153N_B_DDR    DDRC
@@ -114,7 +114,7 @@ int main(void)
 	sei();
 	
 	/* whoop, whoop! */
-	set_internal_led(0);
+	set_internal_led(1);
 	usart_comm_send_zstr("SYSTEM READY.\r\n");
 	
 	sn74hc135n_strobe_channel_2(1);
@@ -123,10 +123,7 @@ int main(void)
     {
 		uint_fast8_t input = sn74hc135n_read_channel_2();
 		
-		if (input != 0)
-		{
-			usart_comm_send_char(input);
-			set_internal_led(1);
-		}
+		usart_comm_send_char(input);
+		// set_internal_led(1);
     }
 }
