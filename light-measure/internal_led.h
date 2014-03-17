@@ -9,6 +9,7 @@
 #ifndef INTERNAL_LED_H_
 #define INTERNAL_LED_H_
 
+#include <avr/io.h>
 
 /*! 
 	\brief Enables or disables the on-board LED
