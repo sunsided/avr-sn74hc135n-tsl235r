@@ -37,7 +37,7 @@ void usart_comm_init();
 	
 	\param data The data byte to write
 */
-void usart_comm_send_char(uint_least8_t data);
+void usart_comm_send_char(uint_fast8_t data);
 
 /*!
 	\brief Writes a zero terminated data stream to the USART Communication Interface

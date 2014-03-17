@@ -60,9 +60,9 @@ void usart_comm_init()
 	rb_init(&output_buffer, output_buffer_data, USART_OUTPUT_BUFFER_SIZE);
 }
 
-void usart_comm_send_char(uint_least8_t data)
+void usart_comm_send_char(uint_fast8_t data)
 {
-	rb_put_data_blocking(&output_buffer, data);
+	rb_put_data_blocking(&output_buffer, (uint_least8_t)data);
 	
 	// enable the UDRE interrupt
 	UCSR0B |= (1 << UDRIE0);
