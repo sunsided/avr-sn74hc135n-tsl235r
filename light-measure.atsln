@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "light-measure", "light-measure\light-measure.cproj", "{C872A3EF-7CC8-4BEE-9FE0-620295D3409D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C872A3EF-7CC8-4BEE-9FE0-620295D3409D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{C872A3EF-7CC8-4BEE-9FE0-620295D3409D}.Debug|AVR.Build.0 = Debug|AVR
+		{C872A3EF-7CC8-4BEE-9FE0-620295D3409D}.Release|AVR.ActiveCfg = Release|AVR
+		{C872A3EF-7CC8-4BEE-9FE0-620295D3409D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
