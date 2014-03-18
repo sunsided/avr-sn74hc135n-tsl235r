@@ -16,6 +16,8 @@
 #include "sn74hc135n.h"
 #include "counters.h"
 
+int led = 0;
+
 int main(void)
 {
 	/* initialize components */
@@ -40,19 +42,13 @@ int main(void)
 	sn74hc135n_strobe_channel_1(1);
 	sn74hc135n_strobe_channel_2(1);
 	
+	uint_fast32_t start_millis = millis();
 	while(1)
 	{
-		uint_fast8_t value = counter1_get();
-		usart_comm_send_char(value);
-	}
-
-#if 0	
-	int led = 0;
-	uint_fast32_t start_millis = millis();
-    while(1)
-    {	
 		uint_fast32_t current_millis = millis();
-		if (current_millis - start_millis >= 1000)
+		
+		/* implement 1-second timer */
+		if (current_millis - start_millis >= 1000 /* ms/s */)
 		{
 			start_millis = current_millis;
 
@@ -60,6 +56,9 @@ int main(void)
 			led = !led;
 			set_internal_led(led);
 		}
-    }
-#endif
+		
+		/* send counter value */
+		uint_fast8_t value = counter1_get();
+		usart_comm_send_char(value);
+	}
 }
