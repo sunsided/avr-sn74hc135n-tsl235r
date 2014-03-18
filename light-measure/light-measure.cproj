@@ -128,6 +128,9 @@
     <Compile Include="buffers\char_ringbuffer.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="counters.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="internal_led.h">
       <SubType>compile</SubType>
     </Compile>
@@ -147,6 +150,9 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="systick.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="counters.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="usart\usart_comm.c">

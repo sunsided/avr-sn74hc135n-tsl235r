@@ -14,54 +14,7 @@
 #include "internal_led.h"
 #include "usart/usart_comm.h"
 #include "sn74hc135n.h"
-
-void external_timer0_init()
-{
-	DDRD  &= ~(1 << DDD4);      /* T0 pin as input */
-	PORTD  |= (1 << PORTD4);    /* pull-up enabled */
-	
-	TIMSK0 |= (1 << TOIE0);     /* enable timer0 interrupt */
-	TCCR0B |= (1 << CS02)       /* enabled counter, count external on rising edge */
-	       |  (1 << CS01) 
-	       |  (1 << CS00);
-	
-	TCNT0 = 0x00;
-}
-
-void external_timer1_init()
-{
-	/* This timer is configured as an 8-bit timer to match resolution of timer0.
-	   Note that ICR1 match is used in order to keep OCR1A/OCR1B functionality
-	   should it be required later on. */
-	
-	DDRD  &= ~(1 << DDD5);      /* T1 pin as input */
-	PORTD  |= (1 << PORTD5);    /* pull-up enabled */
-
-	TIMSK1 |= (1 << ICIE1);     /* enable timer1 interrupt on input capture match */
-	TCCR1B |= (1 << CS12)       /* enabled counter, count external on rising edge */
-	       |  (1 << CS11)
-	       |  (1 << CS10);
-	TCCR1B |= (1 << WGM13)      /* CTC mode, wrap on ICR1 */
-	       |  (1 << WGM12);
-	
-	ICR1  = 0x00FF;              /* wrap when reaching 255 */
-	TCNT1 = 0x0000;
-}
-
-volatile uint_fast8_t timer0_ofs = 0;
-volatile uint_fast8_t timer1_ofs = 0;
-
-ISR (TIMER0_OVF_vect)
-{
-	++timer0_ofs;
-}
-
-ISR (TIMER1_CAPT_vect)
-{
-	/* note that TIMER1_CAPT_vect is used instead of 
-	   TIMER1_OVF_vect because CTC mode on ICR1 is activated */
-	++timer1_ofs;
-}
+#include "counters.h"
 
 int main(void)
 {
@@ -73,9 +26,9 @@ int main(void)
 	/* initialize internal reference timer */
 	systick_init();
 
-	/* initialize external timers */
-	external_timer0_init();
-	external_timer1_init();
+	/* initialize external counters */
+	counter1_init();
+	counter2_init();
 	
 	/* enable interrupts */
 	sei();
@@ -89,7 +42,8 @@ int main(void)
 	
 	while(1)
 	{
-		usart_comm_send_char(timer1_ofs);
+		uint_fast8_t value = counter1_get();
+		usart_comm_send_char(value);
 	}
 
 #if 0	
