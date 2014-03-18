@@ -55,6 +55,17 @@ void sn74hc135n_strobe_channel_2(int enable)
 }
 
 /*!
+	\brief Sets or unsets the strobe signal for both channels
+	\param[in] enable Enables the strobe signal (by setting it low) if set to 1 and 
+	                  disables it otherwise (by setting it high) .
+*/
+void sn74hc135n_strobe_channels(int enable)
+{
+	sn74hc135n_strobe_channel_1(enable);
+	sn74hc135n_strobe_channel_2(enable);
+}
+
+/*!
 	\brief Reads the current value from Channel 1
 */
 uint_fast8_t sn74hc135n_read_channel_1()
@@ -68,4 +79,44 @@ uint_fast8_t sn74hc135n_read_channel_1()
 uint_fast8_t sn74hc135n_read_channel_2()
 {
 	return (SN74HC153N_2Y_PORT & (1 << SN74HC153N_2Y_PIN));
+}
+
+/*!
+	\brief Selects a (pair of) lines to multiplex
+	\param[in] lines The line pair to enable
+*/
+void sn74hc135n_select_lines(sn74hc135n_lines_t lines)
+{
+	switch (lines)
+	{
+		case LINES_1C0_2C0:
+		{
+			SN74HC153N_A_PORT &= ~(1 << SN74HC153N_A_PIN);
+			SN74HC153N_B_PORT &= ~(1 << SN74HC153N_B_PIN);
+			break;
+		}
+		
+		case LINES_1C1_2C1:
+		{
+			SN74HC153N_A_PORT |=  (1 << SN74HC153N_A_PIN);
+			SN74HC153N_B_PORT &= ~(1 << SN74HC153N_B_PIN);
+			break;
+		}
+		
+		case LINES_1C2_2C2:
+		{
+			SN74HC153N_A_PORT &= ~(1 << SN74HC153N_A_PIN);
+			SN74HC153N_B_PORT |=  (1 << SN74HC153N_B_PIN);
+			break;
+		}
+		
+		case LINES_1C3_2C3:
+		{
+			SN74HC153N_A_PORT |=  (1 << SN74HC153N_A_PIN);
+			SN74HC153N_B_PORT |=  (1 << SN74HC153N_B_PIN);
+			break;
+		}
+		
+		/* TODO: exceptional default case */
+	}
 }

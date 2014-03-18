@@ -37,10 +37,27 @@
 #define SN74HC153N_1Y_DD    DDD4
 #define SN74HC153N_2Y_DD    DDD5
 
+
+typedef enum
+{
+	LINES_1C0_2C0,
+	LINES_1C1_2C1,
+	LINES_1C2_2C2,
+	LINES_1C3_2C3,
+} sn74hc135n_lines_t;
+
+
 /*!
 	\brief Initializes the communication over the SN74HC135N two-channel 4-to-1 multiplexer
 */
 void sn74hc135n_init();
+
+/*!
+	\brief Sets or unsets the strobe signal for both channels
+	\param[in] enable Enables the strobe signal (by setting it low) if set to 1 and 
+	                  disables it otherwise (by setting it high) .
+*/
+void sn74hc135n_strobe_channels(int enable);
 
 /*!
 	\brief Sets or unsets the strobe signal for channel 1
@@ -65,5 +82,11 @@ uint_fast8_t sn74hc135n_read_channel_1();
 	\brief Reads the current value from Channel 2
 */
 uint_fast8_t sn74hc135n_read_channel_2();
+
+/*!
+	\brief Selects a (pair of) lines to multiplex
+	\param[in] lines The line pair to enable
+*/
+void sn74hc135n_select_lines(sn74hc135n_lines_t lines);
 
 #endif /* SN74HC135N_H_ */

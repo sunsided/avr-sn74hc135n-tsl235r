@@ -42,7 +42,7 @@
 
 #define FRACT_MAX (1000 >> 3)
 
-static uint_fast32_t timer2_millis = 0;
+static systick_ms_t timer2_millis = 0;
 static uint_fast8_t timer2_fract = 0;
 
 void systick_init()
@@ -57,8 +57,8 @@ SIGNAL(TIMER2_OVF_vect)
 {
 	// copy these to local variables so they can be stored in registers
 	// (volatile variables must be read from memory on every access)
-	uint_fast32_t m = timer2_millis;
-	uint_fast8_t  f = timer2_fract;
+	systick_ms_t m = timer2_millis;
+	uint_fast8_t f = timer2_fract;
 	
 	m += MILLIS_INC;
 	f += FRACT_INC;
@@ -72,9 +72,9 @@ SIGNAL(TIMER2_OVF_vect)
 	// timer2_overflow_count++;
 }
 
-unsigned long millis()
+systick_ms_t millis()
 {
-	uint_fast32_t m;
+	systick_ms_t m;
 	ATOMIC_BLOCK(ATOMIC_RESTORESTATE)
 	{
 		m = timer2_millis;
