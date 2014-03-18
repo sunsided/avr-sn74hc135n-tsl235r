@@ -24,7 +24,7 @@ int led = 0;
 /*!
 	\brief The sampling time in milliseconds
 */
-systick_ms_t sampling_time_ms = 100;
+systick_ms_t sampling_time_ms = 20;
 
 typedef enum {
 
@@ -104,6 +104,52 @@ int main(void)
 	systick_ms_t start_millis = millis();
 	while (1)
 	{
+		/* check commands */
+		if (usart_comm_has_data())
+		{
+			uint_least8_t data;
+			usart_comm_read_char(&data);
+			switch (data)
+			{
+				default:
+				case 0: 
+				{
+					sampling_time_ms = 20;
+					usart_comm_send_zstr("@20ms\r\n");
+					break;
+				}
+				
+				case 1:
+				{
+					sampling_time_ms = 10;
+					usart_comm_send_zstr("@10ms\r\n");
+					break;
+				}
+				
+				case 2:
+				{
+					sampling_time_ms = 50;
+					usart_comm_send_zstr("@50ms\r\n");
+					break;
+				}
+				
+				case 3:
+				{
+					sampling_time_ms = 100;
+					usart_comm_send_zstr("@100ms\r\n");
+					break;
+				}
+				
+				case 4:
+				{
+					sampling_time_ms = 250;
+					usart_comm_send_zstr("@250ms\r\n");
+					break;
+				}
+			}
+		}
+		
+		/* roll state machine */
 		switch (state)
 		{
 			case INIT: /* simply fall through */
@@ -271,6 +317,7 @@ int main(void)
 				
 				usart_comm_send_zstr("\r\n");
 				
+#ifdef NEEDLESSLY_VERBOSE
 				/* output the largest value */
 				usart_comm_send_zstr("*H");
 				usart_comm_send_char(index_of_largest + '0');
@@ -279,6 +326,7 @@ int main(void)
 				usart_comm_send_zstr(",L");
 				usart_comm_send_char(index_of_smallest + '0');
 				usart_comm_send_zstr("\r\n");
+#endif
 
 				/* switch state */
 				state = ADVANCE;
