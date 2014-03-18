@@ -11,7 +11,7 @@
 #include <avr/interrupt.h>
 #include <util/atomic.h>
 
-#include "timer.h"
+#include "systick.h"
 
 /*!
 	\brief Number of clock cycles per microsecond

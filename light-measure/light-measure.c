@@ -10,7 +10,7 @@
 #include <avr/interrupt.h>
 
 #include "system.h"
-#include "timer.h"
+#include "systick.h"
 #include "internal_led.h"
 #include "usart/usart_comm.h"
 #include "sn74hc135n.h"
