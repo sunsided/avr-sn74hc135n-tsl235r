@@ -211,6 +211,7 @@ int main(void)
 				usart_comm_send_char('+');
 				
 				/* find the index of the largest value */
+				int comma_required = 0;
 				for (uint_fast8_t i=0; i<NUM_LINES; ++i)
 				{
 					counter_t value_of_channel_1 = channel_1_buffer[i];
@@ -219,14 +220,12 @@ int main(void)
 					/* NOTE that the following check order depends entirely on the board
 					   layout. The bottom-most sensor is 2C0, followed by 1C0, then 2C1, 1C1 etc. */
 
-					if (i > 0) usart_comm_send_char(',');
-					usart_comm_send_num_as_zstr(value_of_channel_2);
-					usart_comm_send_char(',');
-					usart_comm_send_num_as_zstr(value_of_channel_1);
-
 					/* check channel 2 */
 					if (channel_2_enabled[i])
 					{
+						if (comma_required) usart_comm_send_char(',');
+						usart_comm_send_num_as_zstr(value_of_channel_2);
+						
 						/* find maximum */
 						if (value_of_channel_2 >= largest_value)
 						{
@@ -240,11 +239,17 @@ int main(void)
 							smallest_value = value_of_channel_2;
 							index_of_smallest = i*2; /* times two because there are two parallel channels */
 						}
+						
+						/* we need a comma on the terminal */
+						comma_required = 1;
 					}
 					
 					/* check channel 1 */
 					if (channel_1_enabled[i])
 					{
+						if (comma_required) usart_comm_send_char(',');
+						usart_comm_send_num_as_zstr(value_of_channel_1);
+						
 						/* find maximum */
 						if (value_of_channel_1 >= largest_value)
 						{
@@ -258,6 +263,9 @@ int main(void)
 							smallest_value = value_of_channel_1;
 							index_of_smallest = i*2 + 1;
 						}
+						
+						/* we need a comma on the terminal */
+						comma_required = 1;
 					}
 				}
 				
