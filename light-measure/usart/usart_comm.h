@@ -47,6 +47,13 @@ void usart_comm_send_char(uint_fast8_t data);
 void usart_comm_send_zstr(const char* data);
 
 /*!
+	\brief Writes a number as a zero terminated data stream to the USART Communication Interface
+	
+	\param data The data byte to write
+*/
+void usart_comm_send_num_as_zstr(uint_fast32_t data);
+
+/*!
 	\brief Determines whether the USART Communication Interface has data available to read
 	
 	\return		Nonzero if a byte has been read, 0 if no byte was read

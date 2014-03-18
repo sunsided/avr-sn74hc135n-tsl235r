@@ -20,7 +20,7 @@ extern volatile counter_t counter1_ofvs;
 */
 static inline counter_t counter1_get()
 {
-	return counter0_ofvs;
+	return counter0_ofvs * 255 + TCNT0;
 }
 
 /*!
@@ -28,7 +28,7 @@ static inline counter_t counter1_get()
 */
 static inline counter_t counter2_get()
 {
-	return counter1_ofvs;
+	return counter1_ofvs * 255 + TCNT1;
 }
 
 /*!
