@@ -8,6 +8,8 @@
 #ifndef UTIL_H_
 #define UTIL_H_
 
+#include <limits.h>
+
 // Because we can.
 #include "system.h"
 
@@ -22,5 +24,8 @@
 
 //! \def VAR_NAME_VALUE macro to print the name and content of a define
 #define VAR_NAME_VALUE(var) #var "="  VALUE(var)
+
+//! \def MAX_VALUE Gets the maximum value of a data type
+#define MAX_VALUE(a) (((unsigned long long)1 << (sizeof(a) * CHAR_BIT)) - 1)
 
 #endif /* UTIL_H_ */

@@ -56,6 +56,35 @@ counter_t channel_1_buffer[NUM_LINES] = {0};
 counter_t channel_2_buffer[NUM_LINES] = {0};
 
 /*!
+	\brief The array of counter overflows per sampling time on channel 1
+*/
+counter_t channel_1_enabled[NUM_LINES] = {1};
+
+/*!
+	\brief The array of counter overflows per sampling time on channel 2
+*/
+counter_t channel_2_enabled[NUM_LINES] = {1};
+
+/*!
+	\brief Masks buffer entries that are not to be used
+*/
+void init_channel_buffers()
+{
+	/* initialize */
+	for (uint_fast8_t i=0; i<NUM_LINES; ++i)
+	{
+		channel_1_buffer[i] = 0;
+		channel_1_enabled[i] = 1;
+		
+		channel_2_buffer[i] = 0;
+		channel_2_enabled[i] = 1;
+	}
+	
+	/* apply masks */
+	channel_1_enabled[3] = 0;
+}
+
+/*!
 	\brief Gets the channel buffer index from a line pair
 */
 uint_fast8_t get_channel_index(sn74hc135n_lines_t line)
@@ -74,10 +103,13 @@ int main(void)
 	/* initialize internal reference timer */
 	systick_init();
 
+	/* mask buffers */
+	init_channel_buffers();
+
 	/* initialize external counters */
 	counter1_init();
 	counter2_init();
-	
+		
 	/* enable interrupts */
 	sei();
 	
@@ -193,6 +225,10 @@ int main(void)
 				counter_t largest_value = 0;
 				int_fast8_t index_of_largest = -1;
 				
+				/* find the lowest value */
+				counter_t smallest_value = MAX_VALUE(counter_t);
+				int_fast8_t index_of_smallest = 255;
+				
 				/* find the index of the largest value */
 				for (uint_fast8_t i=0; i<NUM_LINES; ++i)
 				{
@@ -203,23 +239,51 @@ int main(void)
 					   layout. The bottom-most sensor is 2C0, followed by 1C0, then 2C1, 1C1 etc. */
 
 					/* check channel 2 */
-					if (value_of_channel_2 >= largest_value)
+					if (channel_2_enabled[i])
 					{
-						largest_value = value_of_channel_2;
-						index_of_largest = i*2; /* times two because there are two parallel channels */
+						/* find maximum */
+						if (value_of_channel_2 >= largest_value)
+						{
+							largest_value = value_of_channel_2;
+							index_of_largest = i*2; /* times two because there are two parallel channels */
+						}
+					
+						/* find minimum */
+						if (value_of_channel_2 < smallest_value)
+						{
+							smallest_value = value_of_channel_2;
+							index_of_smallest = i*2; /* times two because there are two parallel channels */
+						}
 					}
 					
 					/* check channel 1 */
-					if (value_of_channel_1 >= largest_value)
+					if (channel_1_enabled[i])
 					{
-						largest_value = value_of_channel_1;
-						index_of_largest = i*2 + 1;
+						/* find maximum */
+						if (value_of_channel_1 >= largest_value)
+						{
+							largest_value = value_of_channel_1;
+							index_of_largest = i*2 + 1;
+						}
+						
+						/* find minimum */
+						if (value_of_channel_1 < smallest_value)
+						{
+							smallest_value = value_of_channel_1;
+							index_of_smallest = i*2 + 1;
+						}
 					}
 				}
 				
-				/* output the index */
-				usart_comm_send_char(index_of_largest);
-								
+				/* output the largest value */
+				usart_comm_send_zstr("*H");
+				usart_comm_send_char(index_of_largest + '0');
+				
+				/* output the smallest value */
+				usart_comm_send_zstr(",L");
+				usart_comm_send_char(index_of_smallest + '0');
+				usart_comm_send_zstr("\r\n");
+
 				/* switch state */
 				state = ADVANCE;
 				
