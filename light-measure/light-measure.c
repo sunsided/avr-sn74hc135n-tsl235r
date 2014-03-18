@@ -10,6 +10,7 @@
 #include <avr/interrupt.h>
 
 #include "system.h"
+#include "timer.h"
 #include "internal_led.h"
 #include "usart/usart_comm.h"
 #include "sn74hc135n.h"
@@ -37,6 +38,11 @@ int main(void)
 	internal_led_init();
 	usart_comm_init();  /* 115200 baud */
 	sn74hc135n_init();
+
+	/* initialize internal reference timer */
+	systick_init();
+
+	/* initialize external timers */
 	external_timer0_init();
 	
 	/* enable interrupts */
@@ -46,16 +52,16 @@ int main(void)
 	set_internal_led(0);
 	usart_comm_send_zstr("SYSTEM READY.\r\n");
 	
-	sn74hc135n_strobe_channel_1(1);
-	
 	int led = 0;
+	uint_fast32_t start_millis = millis();
     while(1)
-    {
-		// uint_fast8_t input = sn74hc135n_read_channel_2();
-		// usart_comm_send_char(input);
-		
-		if (0b00 == (timer0_ofs & 0b11))
+    {	
+		uint_fast32_t current_millis = millis();
+		if (current_millis - start_millis >= 1000)
 		{
+			start_millis = current_millis;
+
+			/* toggle LED */
 			led = !led;
 			set_internal_led(led);
 		}

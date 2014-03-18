@@ -143,6 +143,12 @@
     <Compile Include="system.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="timer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="timer.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="usart\usart_comm.c">
       <SubType>compile</SubType>
     </Compile>
