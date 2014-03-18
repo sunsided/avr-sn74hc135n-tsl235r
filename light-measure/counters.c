@@ -7,6 +7,7 @@
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#include <util/atomic.h>
 
 #include "counters.h"
 
@@ -16,6 +17,8 @@ volatile counter_t counter1_ofvs = 0;
 
 void counter1_init()
 {
+	counter0_ofvs = 0;
+	
 	DDRD  &= ~(1 << DDD4);      /* T0 pin as input */
 	PORTD  |= (1 << PORTD4);    /* pull-up enabled */
 	
@@ -33,6 +36,8 @@ void counter2_init()
 	   Note that ICR1 match is used in order to keep OCR1A/OCR1B functionality
 	   should it be required later on. */
 	
+	counter1_ofvs = 0;
+	
 	DDRD  &= ~(1 << DDD5);      /* T1 pin as input */
 	PORTD  |= (1 << PORTD5);    /* pull-up enabled */
 
@@ -43,8 +48,35 @@ void counter2_init()
 	TCCR1B |= (1 << WGM13)      /* CTC mode, wrap on ICR1 */
 	       |  (1 << WGM12);
 	
-	ICR1  = 0x00FF;              /* wrap when reaching 255 */
+	ICR1  = 0x00FF;             /* wrap when reaching 255 */
 	TCNT1 = 0x0000;
+}
+
+/*!
+	\brief Halts both counters
+*/
+void counters_halt()
+{
+	ATOMIC_BLOCK(ATOMIC_RESTORESTATE)
+	{
+		TCCR0B = 0;           /* disable counter 0 */
+		TCCR1B = 0;           /* disable counter 1 */
+		
+		TIFR0 = 0;            /* clear interrupts of counter 0 */
+		TIFR1 = 0;            /* clear interrupts of counter 1 */
+	}
+}
+
+/*!
+	\brief Resets and restarts both counters
+*/
+void counters_reset_restart()
+{
+	ATOMIC_BLOCK(ATOMIC_RESTORESTATE)
+	{
+		counter1_init();
+		counter2_init();
+	}
 }
 
 ISR (TIMER0_OVF_vect)

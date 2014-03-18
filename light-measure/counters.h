@@ -41,4 +41,14 @@ void counter1_init();
 */
 void counter2_init();
 
+/*!
+	\brief Halts both counters
+*/
+void counters_halt();
+
+/*!
+	\brief Resets and restarts both counters
+*/
+void counters_reset_restart();
+
 #endif /* COUNTERS_H_ */
