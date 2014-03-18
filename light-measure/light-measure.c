@@ -102,7 +102,7 @@ int main(void)
 				current_line = LINES_1C0_2C0;
 				
 				sn74hc135n_strobe_channels(0);
-				sn74hc135n_select_lines(LINES_1C0_2C0);
+				sn74hc135n_select_lines(current_line);
 				sn74hc135n_strobe_channels(1);
 				
 				next_state_after_period = SAMPLE_1C1_2C1;
@@ -115,7 +115,7 @@ int main(void)
 				current_line = LINES_1C1_2C1;
 				
 				sn74hc135n_strobe_channels(0);
-				sn74hc135n_select_lines(LINES_1C1_2C1);
+				sn74hc135n_select_lines(current_line);
 				sn74hc135n_strobe_channels(1);
 				
 				next_state_after_period = SAMPLE_1C2_2C2;
@@ -128,7 +128,7 @@ int main(void)
 				current_line = LINES_1C2_2C2;
 				
 				sn74hc135n_strobe_channels(0);
-				sn74hc135n_select_lines(LINES_1C2_2C2);
+				sn74hc135n_select_lines(current_line);
 				sn74hc135n_strobe_channels(1);
 				
 				next_state_after_period = SAMPLE_1C3_2C3;
@@ -141,10 +141,10 @@ int main(void)
 				current_line = LINES_1C3_2C3;
 				
 				sn74hc135n_strobe_channels(0);
-				sn74hc135n_select_lines(LINES_1C3_2C3);
+				sn74hc135n_select_lines(current_line);
 				sn74hc135n_strobe_channels(1);
 				
-				next_state_after_period = SAMPLE_1C0_2C0;
+				next_state_after_period = INIT;
 				state = SAMPLING;
 				break;
 			}
@@ -173,7 +173,16 @@ int main(void)
 				channel_2_buffer[index] = counter2_get();
 				
 				/* switch state */
-				state = OUTPUT;
+				if (INIT == next_state_after_period)
+				{
+					/* build the statistics */
+					state = OUTPUT;
+				}
+				else
+				{
+					/* go to next sensor */
+					state = ADVANCE;
+				}
 				
 				break;
 			}
@@ -210,7 +219,7 @@ int main(void)
 				
 				/* output the index */
 				usart_comm_send_char(index_of_largest);
-				
+								
 				/* switch state */
 				state = ADVANCE;
 				
