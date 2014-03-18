@@ -41,8 +41,8 @@
 typedef enum
 {
 	LINES_1C0_2C0 = 0b00,
-	LINES_1C1_2C1 = 0b01,
-	LINES_1C2_2C2 = 0b10,
+	LINES_1C1_2C1 = 0b10, /* fix: using my TI chip this is the correct order */
+	LINES_1C2_2C2 = 0b01,
 	LINES_1C3_2C3 = 0b11,
 } sn74hc135n_lines_t;
 
