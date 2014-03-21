@@ -106,7 +106,6 @@
     <ListValues>
       <Value>DEBUG</Value>
       <Value>F_CPU=16000000UL</Value>
-      <Value>USING_TEXAS_INSTRUMENTS_CHIP</Value>
     </ListValues>
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>

@@ -23,33 +23,19 @@
 #define SN74HC153N_1Y_DDR   DDRD
 #define SN74HC153N_2Y_DDR   DDRD
 
-#define SN74HC153N_A_PIN    PORTC0 /* analog input 0 */
-#define SN74HC153N_B_PIN    PORTC1 /* analog input 1 */
+#define SN74HC153N_A_PIN    PORTC1 /* analog input 1 */
+#define SN74HC153N_B_PIN    PORTC0 /* analog input 0 */
 #define SN74HC153N_1Gn_PIN  PORTC2 /* analog input 2 */
 #define SN74HC153N_2Gn_PIN  PORTC3 /* analog input 3 */
 #define SN74HC153N_1Y_PIN   PIND4  /* digital pin 4 (T0) */
 #define SN74HC153N_2Y_PIN   PIND5  /* digital pin 5 (T1) */
 
-#define SN74HC153N_A_DD     DDC0
-#define SN74HC153N_B_DD     DDC1
+#define SN74HC153N_A_DD     DDC1
+#define SN74HC153N_B_DD     DDC0
 #define SN74HC153N_1Gn_DD   DDC2
 #define SN74HC153N_2Gn_DD   DDC3
 #define SN74HC153N_1Y_DD    DDD4
 #define SN74HC153N_2Y_DD    DDD5
-
-#if USING_TEXAS_INSTRUMENTS_CHIP /* using TI derivative */
-#pragma message("Compiling for TI-style SN74HC135N")
-
-typedef enum
-{
-	LINES_1C0_2C0 = 0b00,
-	LINES_1C1_2C1 = 0b10, /* fix: using my TI chip this is the correct order */
-	LINES_1C2_2C2 = 0b01,
-	LINES_1C3_2C3 = 0b11,
-} sn74hc135n_lines_t;
-
-#else  /* using NXP derivative */
-#pragma message("Compiling for NXP-style SN74HC135N")
 
 typedef enum
 {
@@ -58,8 +44,6 @@ typedef enum
 	LINES_1C2_2C2 = 0b10,
 	LINES_1C3_2C3 = 0b11,
 } sn74hc135n_lines_t;
-
-#endif
 
 /*!
 	\brief Initializes the communication over the SN74HC135N two-channel 4-to-1 multiplexer
