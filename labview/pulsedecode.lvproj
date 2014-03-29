@@ -10,7 +10,25 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="serialin.vi" Type="VI" URL="../serialin.vi"/>
+		<Item Name="ASCII Processing" Type="Folder">
+			<Item Name="CreateASCIIQueue.vi" Type="VI" URL="../CreateASCIIQueue.vi"/>
+			<Item Name="DestroyASCIIQueue.vi" Type="VI" URL="../DestroyASCIIQueue.vi"/>
+			<Item Name="SensorASCIIProcessor.vi" Type="VI" URL="../SensorASCIIProcessor.vi"/>
+			<Item Name="SensorDataType.ctl" Type="VI" URL="../SensorDataType.ctl"/>
+		</Item>
+		<Item Name="Serial In" Type="Folder">
+			<Item Name="SensorSerialReceiver.vi" Type="VI" URL="../SensorSerialReceiver.vi"/>
+		</Item>
+		<Item Name="Shutdown" Type="Folder">
+			<Item Name="DestroyShutdownNotifier.vi" Type="VI" URL="../DestroyShutdownNotifier.vi"/>
+			<Item Name="DetectShutdownNotification.vi" Type="VI" URL="../DetectShutdownNotification.vi"/>
+			<Item Name="PrepareShutdownNotifier.vi" Type="VI" URL="../PrepareShutdownNotifier.vi"/>
+		</Item>
+		<Item Name="Simulation" Type="Folder">
+			<Item Name="ArrayToProtocol.vi" Type="VI" URL="../ArrayToProtocol.vi"/>
+			<Item Name="SimulatedToArray.vi" Type="VI" URL="../SimulatedToArray.vi"/>
+		</Item>
+		<Item Name="TopLevel.vi" Type="VI" URL="../TopLevel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
