@@ -16,6 +16,10 @@
 			<Item Name="SensorASCIIProcessor.vi" Type="VI" URL="../SensorASCIIProcessor.vi"/>
 			<Item Name="SensorDataType.ctl" Type="VI" URL="../SensorDataType.ctl"/>
 		</Item>
+		<Item Name="Processing" Type="Folder">
+			<Item Name="AngleDecode.vi" Type="VI" URL="../AngleDecode.vi"/>
+			<Item Name="PeakDetect.vi" Type="VI" URL="../PeakDetect.vi"/>
+		</Item>
 		<Item Name="Serial In" Type="Folder">
 			<Item Name="SensorSerialReceiver.vi" Type="VI" URL="../SensorSerialReceiver.vi"/>
 		</Item>
