@@ -34,6 +34,7 @@
 		</Item>
 		<Item Name="Simulation" Type="Folder">
 			<Item Name="ArrayToProtocol.vi" Type="VI" URL="../ArrayToProtocol.vi"/>
+			<Item Name="CalculateIrradiance.vi" Type="VI" URL="../CalculateIrradiance.vi"/>
 			<Item Name="SimulatedToArray.vi" Type="VI" URL="../SimulatedToArray.vi"/>
 			<Item Name="TSL235R.vi" Type="VI" URL="../TSL235R.vi"/>
 		</Item>
