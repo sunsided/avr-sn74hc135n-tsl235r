@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseProfile="tiny" class="canvas" display="inline" height="95%" id="canvas.tsl235rtest" original_viewBox="11.25 9.00 638.88 167.00" preserveAspectRatio="xMinYMin meet" viewBox="11.25 9.00 638.88 167.00" width="100%" x="0" y="0" zoomAndPan="disable">
+  <defs/>
+  <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
+    <g id="background" stroke="none" fill-opacity="1" fill="#ffffff">
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M17.25,15 L644.125,15 L644.125,170 L17.25,170 L17.25,15z "/>
+      </g>
+    </g>
+    <title id="title.tsl235rtest">tsl235rtest</title>
+    <g id="prop.tsl235rtest/TSL235R" class="proptable" display="none" pointer-events="none" extent_Height="86" extent_Width="185.75" preferred_X="295" preferred_Y="30">
+      <rect x="0" y="0" width="185.75" height="86" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ShowPortLabels</text>
+      <text x="122.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">FromPortIcon</text>
+      <rect x="0" y="15" width="185.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Permissions</text>
+      <text x="122.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ReadWrite</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ErrorFcn</text>
+      <text x="122.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="43" width="185.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">PermitHierarchicalResolution</text>
+      <text x="122.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">All</text>
+      <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TreatAsAtomicUnit</text>
+      <text x="122.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="71" width="185.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWSystemCode</text>
+      <text x="122.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+      <rect x="0" y="0" width="185.75" height="86" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/TSL235R" linkid="tsl235rtest/TSL235R" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+      <title id="title.tsl235rtest/TSL235R">TSL235R</title>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,115,25)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L175,0 L175,30 L0,30 L0,0z "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,115,25)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip118)">
+        <defs>
+          <clipPath id="clip118">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L175,0 L175,30 L0,30 L0,0z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,118,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip119)">
+        <defs>
+          <clipPath id="clip119">
+            <path vector-effect="none" fill-rule="evenodd" d="M-3,-15 L172,-15 L172,15 L-3,15 L-3,-15z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.33333,0,0,1.33333,118,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip120)">
+        <defs>
+          <clipPath id="clip120">
+            <path vector-effect="none" fill-rule="evenodd" d="M-2.25,-11.25 L129,-11.25 L129,11.25 L-2.25,11.25 L-2.25,-11.25z "/>
+          </clipPath>
+        </defs>
+        <text textLength="63" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="2.25" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal">Irradiance [µW/cm²]</text>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,118,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip121)">
+        <defs>
+          <clipPath id="clip121">
+            <path vector-effect="none" fill-rule="evenodd" d="M-3,-15 L172,-15 L172,15 L-3,15 L-3,-15z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,287,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip122)">
+        <defs>
+          <clipPath id="clip122">
+            <path vector-effect="none" fill-rule="evenodd" d="M-172,-15 L3,-15 L3,15 L-172,15 L-172,-15z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.33333,0,0,1.33333,287,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip123)">
+        <defs>
+          <clipPath id="clip123">
+            <path vector-effect="none" fill-rule="evenodd" d="M-129,-11.25 L2.25,-11.25 L2.25,11.25 L-129,11.25 L-129,-11.25z "/>
+          </clipPath>
+        </defs>
+        <text textLength="50" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="-52.5" y="2.25" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal">Frequency [kHz]</text>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,287,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip124)">
+        <defs>
+          <clipPath id="clip124">
+            <path vector-effect="none" fill-rule="evenodd" d="M-172,-15 L3,-15 L3,15 L-172,15 L-172,-15z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,115,25)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L175,0 L175,30 L0,30 L0,0z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,202.5,57)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M-22.5,0 L22.5,0 L22.5,15 L-22.5,15 L-22.5,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,180,57)" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal" clip-path="url(#clip125)">
+        <defs>
+          <clipPath id="clip125">
+            <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-651,-176 L1856.5,-176 L1856.5,468 L-651,468 L-651,-176z "/>
+          </clipPath>
+        </defs>
+        <text textLength="172" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="41" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal">TSL235R</text>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/Gain" class="proptable" display="none" pointer-events="none" extent_Height="170" extent_Width="240" preferred_X="380" preferred_Y="27">
+      <rect x="0" y="0" width="240" height="170" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Gain</text>
+      <text x="117" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">1000</text>
+      <rect x="0" y="15" width="240" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Multiplication</text>
+      <text x="117" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Element-wise(K.*u)</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ParamMin</text>
+      <text x="117" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+      <rect x="0" y="43" width="240" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ParamMax</text>
+      <text x="117" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+      <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ParamDataTypeStr</text>
+      <text x="117" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inherit: Inherit via internal rule</text>
+      <rect x="0" y="71" width="240" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutMin</text>
+      <text x="117" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+      <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutMax</text>
+      <text x="117" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+      <rect x="0" y="99" width="240" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutDataTypeStr</text>
+      <text x="117" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inherit: Inherit via internal rule</text>
+      <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">LockScale</text>
+      <text x="117" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="127" width="240" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RndMeth</text>
+      <text x="117" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Floor</text>
+      <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SaturateOnIntegerOverflow</text>
+      <text x="117" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="155" width="240" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleTime</text>
+      <text x="117" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+      <rect x="0" y="0" width="240" height="170" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/Gain" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+      <title id="title.tsl235rtest/Gain">Gain</title>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,325,22)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L50,18 L0,36 L0,0z "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,325,22)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip126)">
+        <defs>
+          <clipPath id="clip126">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L50,0 L50,36 L0,36 L0,0z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,340,40)" font-family="Helvetica" font-size="7.5" font-weight="400" font-style="normal" clip-path="url(#clip127)">
+        <defs>
+          <clipPath id="clip127">
+            <path vector-effect="none" fill-rule="evenodd" d="M-15,-18 L35,-18 L35,18 L-15,18 L-15,-18z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.33333,0,0,1.33333,340,40)" font-family="Helvetica" font-size="7.5" font-weight="400" font-style="normal" clip-path="url(#clip128)">
+        <defs>
+          <clipPath id="clip128">
+            <path vector-effect="none" fill-rule="evenodd" d="M-11.25,-13.5 L26.25,-13.5 L26.25,13.5 L-11.25,13.5 L-11.25,-13.5z "/>
+          </clipPath>
+        </defs>
+        <text textLength="16" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="-9" y="2.25" font-family="Helvetica" font-size="7.5" font-weight="400" font-style="normal">1000</text>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,340,40)" font-family="Helvetica" font-size="7.5" font-weight="400" font-style="normal" clip-path="url(#clip129)">
+        <defs>
+          <clipPath id="clip129">
+            <path vector-effect="none" fill-rule="evenodd" d="M-15,-18 L35,-18 L35,18 L-15,18 L-15,-18z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,325,22)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L50,18 L0,36 L0,0z "/>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/Frequency" class="proptable" display="none" pointer-events="none" extent_Height="254" extent_Width="186.25" preferred_X="640" preferred_Y="38">
+      <rect x="0" y="0" width="186.25" height="254" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Location</text>
+      <text x="84" y="12" xml:space="preserve" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"> [ 564, 371, 1184, 957 ] </text>
+      <rect x="0" y="15" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Open</text>
+      <text x="84" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">NumInputPorts</text>
+      <text x="84" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">3</text>
+      <rect x="0" y="43" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TickLabels</text>
+      <text x="84" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OneTimeTick</text>
+      <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ZoomMode</text>
+      <text x="84" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">on</text>
+      <rect x="0" y="71" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">AxesTitles</text>
+      <text x="84" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Grid</text>
+      <text x="84" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">on</text>
+      <rect x="0" y="99" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TimeRange</text>
+      <text x="84" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">auto</text>
+      <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">YMin</text>
+      <text x="84" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-5~-5~-5</text>
+      <rect x="0" y="127" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">YMax</text>
+      <text x="84" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5~5~5</text>
+      <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SaveToWorkspace</text>
+      <text x="84" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="155" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SaveName</text>
+      <text x="84" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ScopeData</text>
+      <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataFormat</text>
+      <text x="84" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StructureWithTime</text>
+      <rect x="0" y="183" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="194" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">LimitDataPoints</text>
+      <text x="84" y="194" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">on</text>
+      <text x="3" y="208" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MaxDataPoints</text>
+      <text x="84" y="208" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+      <rect x="0" y="211" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="222" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Decimation</text>
+      <text x="84" y="222" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">1</text>
+      <text x="3" y="236" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleInput</text>
+      <text x="84" y="236" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="239" width="186.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="250" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleTime</text>
+      <text x="84" y="250" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <rect x="0" y="0" width="186.25" height="254" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/Frequency" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+      <title id="title.tsl235rtest/Frequency">Frequency</title>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,605,33)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,34 L0,34 L0,0z "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,605,33)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip130)">
+        <defs>
+          <clipPath id="clip130">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,34 L0,34 L0,0z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip131)">
+        <defs>
+          <clipPath id="clip131">
+            <path vector-effect="none" fill-rule="evenodd" d="M604.5,32.5 L634.5,32.5 L634.5,66.5 L604.5,66.5 L604.5,32.5z "/>
+          </clipPath>
+        </defs>
+        <path vector-effect="none" fill-rule="evenodd" d="M609,38 L631,38 L631,50 L609,50 L609,38z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,605,33)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,34 L0,34 L0,0z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,620,69)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M-24.125,0 L24.125,0 L24.125,15 L-24.125,15 L-24.125,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,595.875,69)" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal" clip-path="url(#clip132)">
+        <defs>
+          <clipPath id="clip132">
+            <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-2314.5,-224 L193,-224 L193,420 L-2314.5,420 L-2314.5,-224z "/>
+          </clipPath>
+        </defs>
+        <text textLength="185" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="41" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal">Frequency</text>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/Frequenz [kHz] Display" class="proptable" display="none" pointer-events="none" extent_Height="44" extent_Width="80.5" preferred_X="525" preferred_Y="105">
+      <rect x="0" y="0" width="80.5" height="44" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Format</text>
+      <text x="52.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">short</text>
+      <rect x="0" y="15" width="80.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Decimation</text>
+      <text x="52.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">1</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Floating</text>
+      <text x="52.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="0" width="80.5" height="44" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/Frequenz [kHz] Display" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+      <title id="title.tsl235rtest/Frequenz [kHz] Display">Frequenz [kHz] Display</title>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L90,0 L90,30 L0,30 L0,0z "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip133)">
+        <defs>
+          <clipPath id="clip133">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L90,0 L90,30 L0,30 L0,0z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L90,0 L90,30 L0,30 L0,0z "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip134)">
+        <defs>
+          <clipPath id="clip134">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,1 L88,1 L88,29 L0,29 L0,1z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip134)">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,1 L88,1 L88,29 L0,29 L0,1z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip135)">
+        <defs>
+          <clipPath id="clip135">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,1 L63,1 L63,21 L0,21 L0,1z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip135)">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,3 C0,1.34315 1.34315,0 3,0 L60,0 C61.6569,0 63,1.34315 63,3 L63,18 C63,19.6569 61.6569,21 60,21 L3,21 C1.34315,21 0,19.6569 0,18 L0,3z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,433,103)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip136)">
+        <defs>
+          <clipPath id="clip136">
+            <path vector-effect="none" fill-rule="evenodd" d="M-3,-2 L60,-2 L60,18 L-3,18 L-3,-2z "/>
+          </clipPath>
+        </defs>
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L57,0 L57,15 L0,15 L0,0z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,490,110.5)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip137)">
+        <defs>
+          <clipPath id="clip137">
+            <path vector-effect="none" fill-rule="evenodd" d="M-60,-9 L3,-9 L3,11 L-60,11 L-60,-9z "/>
+          </clipPath>
+        </defs>
+        <path vector-effect="none" fill-rule="evenodd" d="M-2,-6.75 L0,-6.75 L0,6.75 L-2,6.75 L-2,-6.75z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,488,103.75)" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal" clip-path="url(#clip138)">
+        <defs>
+          <clipPath id="clip138">
+            <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-232,-11 L20,-11 L20,69 L-232,69 L-232,-11z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,433,103)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip139)">
+        <defs>
+          <clipPath id="clip139">
+            <path vector-effect="none" fill-rule="evenodd" d="M-3,-2 L60,-2 L60,18 L-3,18 L-3,-2z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip140)">
+        <defs>
+          <clipPath id="clip140">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,1 L63,1 L63,21 L0,21 L0,1z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,430,100)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip141)">
+        <defs>
+          <clipPath id="clip141">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,1 L88,1 L88,29 L0,29 L0,1z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,475,132)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M-34.625,0 L34.625,0 L34.625,28 L-34.625,28 L-34.625,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,440.375,132)" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal" clip-path="url(#clip142)">
+        <defs>
+          <clipPath id="clip142">
+            <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1692.5,-476 L815,-476 L815,168 L-1692.5,168 L-1692.5,-476z "/>
+          </clipPath>
+        </defs>
+        <text textLength="269" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="41" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal">Frequenz [kHz]</text>
+        <text textLength="128" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="74.5" y="93" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal">Display</text>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/PWM Generator" class="proptable" display="none" pointer-events="none" extent_Height="86" extent_Width="185.75" preferred_X="545" preferred_Y="20">
+      <rect x="0" y="0" width="185.75" height="86" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ShowPortLabels</text>
+      <text x="122.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">FromPortIcon</text>
+      <rect x="0" y="15" width="185.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Permissions</text>
+      <text x="122.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ReadWrite</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ErrorFcn</text>
+      <text x="122.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="43" width="185.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">PermitHierarchicalResolution</text>
+      <text x="122.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">All</text>
+      <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TreatAsAtomicUnit</text>
+      <text x="122.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="71" width="185.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWSystemCode</text>
+      <text x="122.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+      <rect x="0" y="0" width="185.75" height="86" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/PWM Generator" linkid="tsl235rtest/PWM Generator" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+      <title id="title.tsl235rtest/PWM Generator">PWM Generator</title>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,430,15)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L110,0 L110,50 L0,50 L0,0z "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,430,15)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip143)">
+        <defs>
+          <clipPath id="clip143">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L110,0 L110,50 L0,50 L0,0z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,433,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip144)">
+        <defs>
+          <clipPath id="clip144">
+            <path vector-effect="none" fill-rule="evenodd" d="M-3,-25 L107,-25 L107,25 L-3,25 L-3,-25z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.33333,0,0,1.33333,433,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip145)">
+        <defs>
+          <clipPath id="clip145">
+            <path vector-effect="none" fill-rule="evenodd" d="M-2.25,-18.75 L80.25,-18.75 L80.25,18.75 L-2.25,18.75 L-2.25,-18.75z "/>
+          </clipPath>
+        </defs>
+        <text textLength="47" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="2.25" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal">Frequency [Hz]</text>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,433,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip146)">
+        <defs>
+          <clipPath id="clip146">
+            <path vector-effect="none" fill-rule="evenodd" d="M-3,-25 L107,-25 L107,25 L-3,25 L-3,-25z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,537,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip147)">
+        <defs>
+          <clipPath id="clip147">
+            <path vector-effect="none" fill-rule="evenodd" d="M-107,-25 L3,-25 L3,25 L-107,25 L-107,-25z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.33333,0,0,1.33333,537,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip148)">
+        <defs>
+          <clipPath id="clip148">
+            <path vector-effect="none" fill-rule="evenodd" d="M-80.25,-18.75 L2.25,-18.75 L2.25,18.75 L-80.25,18.75 L-80.25,-18.75z "/>
+          </clipPath>
+        </defs>
+        <text textLength="17" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="-16.5" y="2.25" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal">PWM</text>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,537,40)" font-family="Helvetica" font-size="6.75" font-weight="400" font-style="normal" clip-path="url(#clip149)">
+        <defs>
+          <clipPath id="clip149">
+            <path vector-effect="none" fill-rule="evenodd" d="M-107,-25 L3,-25 L3,25 L-107,25 L-107,-25z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,430,15)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L110,0 L110,50 L0,50 L0,0z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,485,67)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M-37.5,0 L37.5,0 L37.5,15 L-37.5,15 L-37.5,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,447.5,67)" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal" clip-path="url(#clip150)">
+        <defs>
+          <clipPath id="clip150">
+            <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-1721,-216 L786.5,-216 L786.5,428 L-1721,428 L-1721,-216z "/>
+          </clipPath>
+        </defs>
+        <text textLength="292" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="41" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal">PWM Generator</text>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/Irradiance Sweep" class="proptable" display="none" pointer-events="none" extent_Height="58" extent_Width="102.5" preferred_X="60" preferred_Y="30">
+      <rect x="0" y="0" width="102.5" height="58" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">slope</text>
+      <text x="77" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0.01</text>
+      <rect x="0" y="15" width="102.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">start</text>
+      <text x="77" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">X0</text>
+      <text x="77" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <rect x="0" y="43" width="102.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">VectorParams1D</text>
+      <text x="77" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">on</text>
+      <rect x="0" y="0" width="102.5" height="58" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/Irradiance Sweep" linkid="tsl235rtest/Irradiance Sweep" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+      <title id="title.tsl235rtest/Irradiance Sweep">Irradiance Sweep</title>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,25,25)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,30 L0,30 L0,0z "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,25,25)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip151)">
+        <defs>
+          <clipPath id="clip151">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,30 L0,30 L0,0z "/>
+          </clipPath>
+        </defs>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip152)">
+        <defs>
+          <clipPath id="clip152">
+            <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M25,25 L55,25 L55,55 L25,55 L25,25z "/>
+          </clipPath>
+        </defs>
+        <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M25,25 L55,25 L55,55 L25,55 L25,25z "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip153)">
+        <defs>
+          <clipPath id="clip153">
+            <path vector-effect="none" fill-rule="evenodd" d="M24.5,24.5 L54.5,24.5 L54.5,54.5 L24.5,54.5 L24.5,24.5z "/>
+          </clipPath>
+        </defs>
+        <polyline fill="none" vector-effect="none" points="28,52 36,52 "/>
+      </g>
+      <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal" clip-path="url(#clip153)">
+        <polyline fill="none" vector-effect="none" points="36,52 52,28 "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,25,25)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,30 L0,30 L0,0z "/>
+      </g>
+      <g fill="none" stroke="none" transform="matrix(1,0,0,1,40,57)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M-22.75,0 L22.75,0 L22.75,28 L-22.75,28 L-22.75,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.25,0,0,0.25,17.25,57)" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal" clip-path="url(#clip154)">
+        <defs>
+          <clipPath id="clip154">
+            <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,-176 L2507.5,-176 L2507.5,468 L0,468 L0,-176z "/>
+          </clipPath>
+        </defs>
+        <text textLength="174" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="4" y="41" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal">Irradiance</text>
+        <text textLength="123" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="29.5" y="93" font-family="Helvetica" font-size="40" font-weight="400" font-style="normal">Sweep</text>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/_uniq_id_0" class="proptable" display="none" pointer-events="none" extent_Height="170" extent_Width="196.5" preferred_X="5" preferred_Y="5">
+      <rect x="0" y="0" width="196.5" height="170" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+      <text x="122" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <rect x="0" y="15" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+      <text x="122" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+      <text x="122" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="43" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+      <text x="122" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+      <text x="122" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+      <rect x="0" y="71" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+      <text x="122" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+      <text x="122" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+      <rect x="0" y="99" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+      <text x="122" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+      <text x="122" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="127" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+      <text x="122" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+      <text x="122" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+      <rect x="0" y="155" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+      <text x="122" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="0" width="196.5" height="170" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/_uniq_id_0" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+      <title id="title.tsl235rtest/_uniq_id_0"/>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M375,40 L398,40"/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M398,40 L398,83"/>
+      </g>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,430,40)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M398,40 L422,40"/>
+      </g>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,430,115)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M398,83 L398,115 L422,115"/>
+      </g>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,605,50)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M398,83 L562,83 L562,50 L597,50"/>
+      </g>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,398,40)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+      </g>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,398,83)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/_uniq_id_1" class="proptable" display="none" pointer-events="none" extent_Height="170" extent_Width="196.5" preferred_X="5" preferred_Y="5">
+      <rect x="0" y="0" width="196.5" height="170" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+      <text x="122" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <rect x="0" y="15" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+      <text x="122" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+      <text x="122" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="43" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+      <text x="122" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+      <text x="122" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+      <rect x="0" y="71" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+      <text x="122" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+      <text x="122" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+      <rect x="0" y="99" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+      <text x="122" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+      <text x="122" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="127" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+      <text x="122" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+      <text x="122" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+      <rect x="0" y="155" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+      <text x="122" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="0" width="196.5" height="170" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/_uniq_id_1" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+      <title id="title.tsl235rtest/_uniq_id_1"/>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,325,40)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M290,40 L317,40"/>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/_uniq_id_2" class="proptable" display="none" pointer-events="none" extent_Height="170" extent_Width="196.5" preferred_X="5" preferred_Y="5">
+      <rect x="0" y="0" width="196.5" height="170" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+      <text x="122" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <rect x="0" y="15" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+      <text x="122" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+      <text x="122" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="43" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+      <text x="122" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+      <text x="122" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+      <rect x="0" y="71" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+      <text x="122" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+      <text x="122" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+      <rect x="0" y="99" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+      <text x="122" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+      <text x="122" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="127" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+      <text x="122" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+      <text x="122" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+      <rect x="0" y="155" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+      <text x="122" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="0" width="196.5" height="170" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/_uniq_id_2" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+      <title id="title.tsl235rtest/_uniq_id_2"/>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M55,40 L73,40"/>
+      </g>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,115,40)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M73,40 L107,40"/>
+      </g>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,605,60)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M73,40 L73,170 L581,170 L581,60 L597,60"/>
+      </g>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,73,40)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+      </g>
+    </g>
+    <g id="prop.tsl235rtest/_uniq_id_3" class="proptable" display="none" pointer-events="none" extent_Height="170" extent_Width="196.5" preferred_X="5" preferred_Y="5">
+      <rect x="0" y="0" width="196.5" height="170" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+      <text x="122" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <rect x="0" y="15" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+      <text x="122" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+      <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+      <text x="122" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="43" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+      <text x="122" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+      <text x="122" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+      <rect x="0" y="71" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+      <text x="122" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+      <text x="122" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+      <rect x="0" y="99" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+      <text x="122" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+      <text x="122" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+      <rect x="0" y="127" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+      <text x="122" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+      <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+      <text x="122" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+      <rect x="0" y="155" width="196.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+      <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+      <text x="122" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+      <rect x="0" y="0" width="196.5" height="170" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="tsl235rtest/_uniq_id_3" linkid="" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+      <title id="title.tsl235rtest/_uniq_id_3"/>
+      <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,605,40)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+      </g>
+      <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="MS Shell Dlg 2" font-size="8.25" font-weight="400" font-style="normal">
+        <path vector-effect="none" fill-rule="evenodd" d="M540,40 L597,40"/>
+      </g>
+    </g>
+  </g>
+</svg>
