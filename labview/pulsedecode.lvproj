@@ -23,7 +23,9 @@
 			<Item Name="SignalFilter.vi" Type="VI" URL="../SignalFilter.vi"/>
 		</Item>
 		<Item Name="Serial In" Type="Folder">
+			<Item Name="DecodeSerialStringToSensorDataArray.vi" Type="VI" URL="../DecodeSerialStringToSensorDataArray.vi"/>
 			<Item Name="SensorSerialReceiver.vi" Type="VI" URL="../SensorSerialReceiver.vi"/>
+			<Item Name="SerialInToQueue.vi" Type="VI" URL="../SerialInToQueue.vi"/>
 		</Item>
 		<Item Name="Serial Out" Type="Folder">
 			<Item Name="SerialOut.vi" Type="VI" URL="../SerialOut.vi"/>
@@ -42,9 +44,8 @@
 			<Item Name="TSL235R.vi" Type="VI" URL="../TSL235R.vi"/>
 		</Item>
 		<Item Name="ArraySimulation.vi" Type="VI" URL="../ArraySimulation.vi"/>
-		<Item Name="DecodeSerialStringToSensorDataArray.vi" Type="VI" URL="../DecodeSerialStringToSensorDataArray.vi"/>
 		<Item Name="ProcessWithoutOutput.vi" Type="VI" URL="../ProcessWithoutOutput.vi"/>
-		<Item Name="SerialInToQueue.vi" Type="VI" URL="../SerialInToQueue.vi"/>
+		<Item Name="ProcessWithOutput.vi" Type="VI" URL="../ProcessWithOutput.vi"/>
 		<Item Name="toplevel.vi" Type="VI" URL="../toplevel.vi"/>
 		<Item Name="TSL235R-Test.vi" Type="VI" URL="../TSL235R-Test.vi"/>
 		<Item Name="UnusedVI.vi" Type="VI" URL="../UnusedVI.vi"/>
