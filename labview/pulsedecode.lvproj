@@ -20,6 +20,7 @@
 			<Item Name="AngleDecode.vi" Type="VI" URL="../AngleDecode.vi"/>
 			<Item Name="Ausgangswinkel.vi" Type="VI" URL="../Ausgangswinkel.vi"/>
 			<Item Name="PeakDetect.vi" Type="VI" URL="../PeakDetect.vi"/>
+			<Item Name="SignalFilter.vi" Type="VI" URL="../SignalFilter.vi"/>
 		</Item>
 		<Item Name="Serial In" Type="Folder">
 			<Item Name="SensorSerialReceiver.vi" Type="VI" URL="../SensorSerialReceiver.vi"/>
@@ -35,10 +36,12 @@
 		<Item Name="Simulation" Type="Folder">
 			<Item Name="ArrayToProtocol.vi" Type="VI" URL="../ArrayToProtocol.vi"/>
 			<Item Name="CalculateIrradiance.vi" Type="VI" URL="../CalculateIrradiance.vi"/>
+			<Item Name="ReduceFrequenciesToCounts.vi" Type="VI" URL="../ReduceFrequenciesToCounts.vi"/>
+			<Item Name="SensorArray.vi" Type="VI" URL="../SensorArray.vi"/>
 			<Item Name="SimulatedToArray.vi" Type="VI" URL="../SimulatedToArray.vi"/>
 			<Item Name="TSL235R.vi" Type="VI" URL="../TSL235R.vi"/>
 		</Item>
-		<Item Name="SensorArray.vi" Type="VI" URL="../SensorArray.vi"/>
+		<Item Name="ArraySimulation.vi" Type="VI" URL="../ArraySimulation.vi"/>
 		<Item Name="TopLevel.vi" Type="VI" URL="../TopLevel.vi"/>
 		<Item Name="TSL235R-Test.vi" Type="VI" URL="../TSL235R-Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
