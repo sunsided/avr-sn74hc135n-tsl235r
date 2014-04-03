@@ -19,6 +19,7 @@
 		<Item Name="Processing" Type="Folder">
 			<Item Name="AngleDecode.vi" Type="VI" URL="../AngleDecode.vi"/>
 			<Item Name="PeakDetect.vi" Type="VI" URL="../PeakDetect.vi"/>
+			<Item Name="PeakInterpolate.vi" Type="VI" URL="../PeakInterpolate.vi"/>
 		</Item>
 		<Item Name="Serial In" Type="Folder">
 			<Item Name="SensorSerialReceiver.vi" Type="VI" URL="../SensorSerialReceiver.vi"/>
@@ -35,10 +36,12 @@
 		<Item Name="TopLevel.vi" Type="VI" URL="../TopLevel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
